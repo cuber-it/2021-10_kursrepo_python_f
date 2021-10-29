@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+
+spielfeld=[" ","1","2","3","4","5","6","7","8","9"]
+
+# Spielfeld ausgeben
+
+
+def spielfeld_ausgeben():
+    print({spielfeld[1] + "|" + spielfeld[2] + "|" + spielfeld[3]})
+    
+spielfeld_ausgeben()
